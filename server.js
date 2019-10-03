@@ -133,8 +133,12 @@ const dist_libs = [
     //{ "route": "/dist", "path": "reveal-3.8.0" },
     /* riotjs */
     { "route": "/dist/js", "path": "riotjs-3.13.2" },
+    /* fabricjs */
+    { "route": "/dist", "path": "fabricjs-3.4.0" },
+    /* gifuct */
+    { "route": "/dist", "path": "gifuct-js-1.0.0" },
     /* for access precompile riotjs component */
-    { "route": "/components", "path": "../../dist/component/riot" },
+    { "route": "/components", "path": "../../dist/component/riot" }
 ];
 
 function dist_lib(app, exportRoute, localPath) {
